@@ -1,15 +1,16 @@
 #!/usr/bin/env ruby
 
 require 'json'
+SCRIPT_DIR = File.dirname File.expand_path(__FILE__)
 
-blockerList = IO.readlines('./url-filter-block.txt').sort.map do |url|
+blocked_urls = IO.readlines(File.join(SCRIPT_DIR, 'url-filter-block.txt')).sort.map do |url|
   url.strip!
   next if url == ''
   next if url[0] == '#'
 
   {
     'trigger' => {
-      'url-filter' => url
+      'url-filter' => Regexp.escape(url) #.gsub(/\\/, "\\\\")
     },
     'action' => {
       'type' => 'block'
