@@ -409,6 +409,14 @@
   },
   {
     "trigger": {
+      "url-filter": "counter\\.yadro\\.ru"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "crazyegg\\.com"
     },
     "action": {
