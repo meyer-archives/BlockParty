@@ -81,6 +81,22 @@
   },
   {
     "trigger": {
+      "url-filter": "ads.yahoo.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "adserver.yahoo.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "adsonar.com"
     },
     "action": {
@@ -97,7 +113,23 @@
   },
   {
     "trigger": {
+      "url-filter": "adsrvr.org"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "adsymptotic.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "adtech.de"
     },
     "action": {
       "type": "block"
@@ -153,87 +185,7 @@
   },
   {
     "trigger": {
-      "url-filter": "ads.yahoo.com"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "adserver.yahoo.com"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "adsrvr.org"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "adtech.de"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
       "url-filter": "analytics.yahoo.com"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "backbeatmedia.com"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "bc.yahoo.com"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "bkrtx.com"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "cxense.com"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "gemini.yahoo.com"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "ysm.yahoo.com"
     },
     "action": {
       "type": "block"
@@ -250,6 +202,22 @@
   {
     "trigger": {
       "url-filter": "atwola.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "backbeatmedia.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "bc.yahoo.com"
     },
     "action": {
       "type": "block"
@@ -274,6 +242,14 @@
   {
     "trigger": {
       "url-filter": "bizrate.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "bkrtx.com"
     },
     "action": {
       "type": "block"
@@ -473,6 +449,14 @@
   },
   {
     "trigger": {
+      "url-filter": "cxense.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "demdex.net"
     },
     "action": {
@@ -634,6 +618,14 @@
   {
     "trigger": {
       "url-filter": "ftjcfx.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "gemini.yahoo.com"
     },
     "action": {
       "type": "block"
@@ -1545,6 +1537,22 @@
   },
   {
     "trigger": {
+      "url-filter": "ysm.yahoo.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "zdbb.net"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "zedo.com"
     },
     "action": {
@@ -1554,14 +1562,6 @@
   {
     "trigger": {
       "url-filter": "zergnet.com"
-    },
-    "action": {
-      "type": "block"
-    }
-  },
-  {
-    "trigger": {
-      "url-filter": "zdbb.net"
     },
     "action": {
       "type": "block"
