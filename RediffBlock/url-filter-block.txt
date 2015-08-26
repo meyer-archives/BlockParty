@@ -1,5 +1,6 @@
 247realmedia.com
 2mdn.net
+a.kat.cr
 acxiom-online.com
 adadviser.net
 adblade.com
@@ -49,6 +50,7 @@ collect.igodigital.com
 content.ad
 convertro.com
 crazyegg.com
+creative.wwwpromoter.com
 criteo.com
 criteo.net
 crsspxl.com
@@ -62,6 +64,7 @@ doubleclick.net
 doubleverify.com
 dwin1.com
 dynamicyield.com
+ecpmrocks.com
 effectivemeasure.net
 eloqua.com
 en25.com

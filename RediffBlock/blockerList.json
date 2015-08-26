@@ -17,6 +17,14 @@
   },
   {
     "trigger": {
+      "url-filter": "a.kat.cr"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "acxiom-online.com"
     },
     "action": {
@@ -409,6 +417,14 @@
   },
   {
     "trigger": {
+      "url-filter": "creative.wwwpromoter.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "criteo.com"
     },
     "action": {
@@ -506,6 +522,14 @@
   {
     "trigger": {
       "url-filter": "dynamicyield.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "ecpmrocks.com"
     },
     "action": {
       "type": "block"
