@@ -1,6 +1,17 @@
 [
   {
     "trigger": {
+      "url-filter": ".*",
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": "247realmedia\\.com"
     },
     "action": {

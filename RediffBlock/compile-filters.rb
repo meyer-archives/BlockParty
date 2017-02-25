@@ -18,4 +18,18 @@ blocked_urls = IO.readlines(File.join(SCRIPT_DIR, 'url-filter-block.txt')).sort.
   }
 end.compact
 
-puts JSON.pretty_generate(blockerList)
+custom_rules = [
+  {
+    'trigger' => {
+      'url-filter': '.*',
+      'resource-type' => ['font']
+    },
+    'action' => {
+      'type' => 'block'
+    }
+  }
+]
+
+puts JSON.pretty_generate(
+  custom_rules + blocked_urls
+)
